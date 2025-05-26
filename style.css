@@ -1,7 +1,8 @@
 * {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: rgb(31, 31, 31);
+    margin: 0;
+    padding: 0;
 }
 
 .rtr > img{
@@ -14,10 +15,7 @@
     justify-content: space-evenly;
 }
 
-.trt > img {
-    width: 1000px;
-    align-items: center;
-}
+
 
 button {
     align-items: center;
@@ -31,8 +29,8 @@ button {
     font-size: 18px;
     justify-content: center;
     line-height: 1em;
-    max-width: 100%;
-    min-width: 140px;
+    max-width: 40%;
+    min-width: 70px;
     padding: 3px;
     text-decoration: none;
     user-select: none;
@@ -42,6 +40,7 @@ button {
     cursor: pointer;
     transition: all 0.3s;
     margin-top: 2%;
+    margin: 0 auto;
   }
   
   button:active,
@@ -69,8 +68,53 @@ button {
 .trt  {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10%;
 }
 
-.wqw > img{
+.trt > h1 {
+  text-align: center;
+}
 
+
+header {
+  width: 100%;
+  height: 1000px;
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #191a1a;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+
+body {
+  width: 100%;
+  height: 1000px;
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #191a1a;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+
+.hjh {
+  display: flex;
+  justify-content: space-around;
+}
+
+#mnm {
+  width: 250px;
+  height: 250px;
+}
+
+.xdx {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bvb > * {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
 }
