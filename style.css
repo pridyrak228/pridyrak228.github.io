@@ -111,19 +111,10 @@ body {
 }
 
 
-.hjh {
-  display: flex;
-  justify-content: space-around;
-}
 
 #mnm {
   width: 250px;
   height: 250px;
-}
-
-.xdx {
-  display: flex;
-  justify-content: space-around;
 }
 
 .bvb > * {
@@ -142,6 +133,17 @@ body {
   margin: 190px;
 }
 
+.lbl {
+  display: flex;
+  justify-content: space-around;
+
+  height: 250px;
+}
+
+.hjh {
+  display: flex;
+  justify-content: space-around;
+}
 
 .rating {
   display: flex;
